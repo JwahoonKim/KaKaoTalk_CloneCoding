@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="CSS/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to JakaoTalk</title>
+    <title>Friends - Jakao Clone</title>
   </head>
   <body>
     <!-- 상태바 시작-->
@@ -23,23 +23,21 @@
       </div>
     </div>
     <!-- 상태바 끝 -->
-    <!-- 메세지 시작 -->
-    <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to JakaoTalk</h1>
-      <p class="welcome-header__text">
-        If you have a Jakao Account,<br />
-        log in with your email or phone number.
-      </p>
-    </header>
-    <!-- 메세지 끝 -->
-    <form action="friends.html" method="get" id="login-form">
-      <input name="username" type="text" placeholder="Email or phone number" />
-      <input name="password" type="password" placeholder="Password" />
-      <!-- placeholder는 무엇을 적어야하는지 guide를 해준다 -->
-      <!-- submit type은 placeholder를 쓸 필요가 없어 > value를 쓴다. -->
-      <input type="submit" value="Log In" />
-      <a href="#">Find Jakao Account or Password</a>
-    </form>
+<nav class="nav">
+    <ul class="nav__list">
+        <li class="nav__btn">
+            <a class="nav__link" href="friends.html"><i class="fas fa-user fa-lg"></i></a>
+        </li>
+        <li class="nav__btn">
+            <a class="nav__link" href="#"><i class="far fa-comment fa-lg"></i></a>
+        </li>
+        <li class="nav__btn">
+            <a class="nav__link" href="#"><i class="fas fa-search fa-lg"></i></a
+                ></li>
+        <li class="nav__btn">
+            <a class="nav__link" href="#"><i class="fas fa-ellipsis-h fa-lg"></i></a>
+        </li>
+    </ul>
     <!-- icon을 넣어주는 스크립트 -->
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
