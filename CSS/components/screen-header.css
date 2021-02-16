@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--horizontal-space);
-  padding-top: 40px;
+  /* padding-top: 40px; */
   opacity: 90%;
   margin-bottom: 15px;
 }
@@ -17,3 +17,13 @@
   margin-left: 25px;
 }
 
+.screen-header__icons__notification{
+  position: absolute;
+  background-color: tomato;
+  display: flex;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  right: 15px;
+  top:38px
+}
